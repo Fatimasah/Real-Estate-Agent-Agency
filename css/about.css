@@ -1,0 +1,62 @@
+/* ========About stylee ======== */
+
+.home {
+   padding-bottom: 120px;
+   
+   background-image: url(../imgs/base.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+   position: relative;
+   /* height: 370px; */
+   min-height: 370px;
+   height: unset;
+
+}
+.home .static-home .title h1 {
+    margin-top: 110px;
+    
+    /* position: absolute;
+    right: 0;
+    left: 0; */
+}
+.under-about {
+    padding-top: 70px;
+}
+.under-about .row {
+    justify-content: space-around;
+}
+.under-about p {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'o-s';
+    text-align: justify;
+    line-height: 2;
+    margin-bottom: 0;
+}
+@media (max-width: 768px) {
+    .under-about p {
+        text-align: center;
+    }
+}
+.why-us .why-us-container .why-us-background {
+    background-image: url('../imgs/why-us-page.png');
+}
+
+@media (min-width: 1199px) {
+    .fixed2 {
+        height: 70%;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .fixed2 {
+        height: 76%;
+    }
+}
+.home .static-home .readMore {
+    top: 60%;
+}
+.footer-section {
+    margin-top: 200px;
+}
+    
